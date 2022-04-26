@@ -8,7 +8,7 @@ body{
 .aboutmebody{
   margin: 0
 }
-    @keyframes pulse {
+    @keyframes faze {
     0% {
       background-position: 0% 50%;
     }
@@ -24,45 +24,14 @@ body{
   width: 100vw;
   height: 100vh;
   background: rgb(239,239,176);
-  background: linear-gradient(90deg, rgba(239,239,176,1) 0%, rgba(196,239,239,1) 35%, rgba(203,179,203,1) 100%);
-        );
-  animation: pulse 30s infinite;
+  background: linear-gradient(90deg, rgba(239,239,176,1) 0%, rgba(196,239,239,1) 35%, rgba(239,239,176,1) 100%););
+  animation: faze 30s infinite;
   background-size: 400% 400%;
 }
-
-.navigation {
-  width: 100%;
-  background-color: #C4EFEF;
-  overflow: auto;
-  margin: 10px 0px 10px 0px;
-}
-
-.navigation a {
-  float: left;
-  padding: 10px;
-  color: black;
-  font-size: 18px;
-  width: 15%;
-  text-align: center;
-  text-decoration: none;
-  text-shadow: 2px 2px 6px #CBB3CB;
-  font-family: 'Courier New', monospace;
-  font-weight: bold;
-}
-
-.navigation a:hover {
-  background-color: #CBB3CB;
-}
-
-.navigation a.active {
-  background-color: #CBB3CB;
-}
-
 
 .center{
 width: 42%;
 border: 10px solid rgba(196,238,238, 0.5);
-
 }
 
 .center{
@@ -77,9 +46,9 @@ border: 10px solid rgba(196,238,238, 0.5);
 }
 
 .text{
-  padding: 5px 20px 5px 20px;
+  padding: 15px 20px 15px 20px;
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 h2:not(.columnsh)
@@ -176,13 +145,14 @@ right: 16px;
 .aboutmeimg{
   width: 20vw;
   height: auto;
-  margin: 5px;
+  margin: 0px;
   border: 10px solid rgba(196,238,238, 0.5);
 }
 .about-me-img{
   display: flex;
   justify-content: center;
-  margin-top: 30px;
+  margin-top: 0px;
+  padding-top: 30px;
 }
 .aboutmetext{
   display: block;
