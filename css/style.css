@@ -1,6 +1,5 @@
 body{
   font-family: Courier, monospace; /*changes page font*/
-  margin: 0; /*removes margin from the page*/
   background-color: #626c7A; /*site background color*/
   color: #00000; /*text color*/
 }
@@ -80,6 +79,13 @@ h2:not(.analogh2){
   filter: grayscale(0%);
   transform: scale(1.2);
 }
+h3{
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: normal;
+  text-shadow: 2px 2px 8px rgba(202, 222, 251, 1);
+}
 
 .slideshow{
   width: 80vw;
@@ -88,7 +94,7 @@ h2:not(.analogh2){
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border: 10px solid rgba(196,238,238, 0.5);
+  border: 8px solid rgba(47, 52, 59, 0.3);
   margin-top: 35px;
 }
 
@@ -173,7 +179,7 @@ right: 16px;
 .columnsh{
   column-span: all;
   text-align: center;
-  text-shadow: 2px 2px 6px #CBB3CB;
+  text-shadow: 2px 2px 6px rgba(47, 52, 59, 0.5);
   font-size: 40px;
 }
 .analogsources{
@@ -182,10 +188,36 @@ right: 16px;
 }
 .analogh2{
   text-align: center;
-  text-shadow: 2px 2px 6px #CBB3CB;
+  text-shadow: 2px 2px 6px rgba(47, 52, 59, 0.5);
   font-size: 40px;
 }
 .analogvideop{
   margin-left: 20vw;
   margin-right: 20vw;
+}
+
+.content{
+  text-align: center;
+  padding: 40px 160px;
+  margin: 20px 50px;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content{
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 4px 12px #8888;
+  display: none;
+  position: absolute;
+  background-color: #CADEFB;
+  z-index: 1;
 }
