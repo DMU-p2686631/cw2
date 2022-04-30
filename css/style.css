@@ -310,7 +310,9 @@ right: 10px;
   text-align: justify;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 8px;
 }
+
 .columnsh{
   column-span: all;  /* title above every column */
   text-align: center;
@@ -337,6 +339,10 @@ right: 10px;
   margin-right: auto;
   width: 900px;
   padding-top: 30px;
+}
+.content p{
+  text-align: center;
+
 }
 
 .dropdown {
